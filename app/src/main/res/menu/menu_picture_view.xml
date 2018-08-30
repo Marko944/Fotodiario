@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="it.unipr.marco.fotodiario.activities.PictureView">
+    <item
+        android:id="@+id/pictureAddDescription"
+        android:icon="@drawable/ic_menu_edit_24dp"
+        android:title="@string/pictureAddDescription"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/pictureDelete"
+        android:icon="@drawable/ic_menu_delete_24dp"
+        android:title="@string/pictureDelete"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/pictureMaps"
+        android:icon="@drawable/ic_menu_maps_24dp"
+        android:title="@string/pictureMaps"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/pictureShare"
+        android:icon="@drawable/ic_menu_share_24dp"
+        android:title="@string/pictureShare"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/pictureInfo"
+        android:icon="@drawable/ic_menu_info_24dp"
+        android:title="@string/pictureInfo"
+        app:showAsAction="ifRoom" />
+    <!-- Dovrei usare ifRoom ma uso always per far vedere le iconcine -->
+</menu>

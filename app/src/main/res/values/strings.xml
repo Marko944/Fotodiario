@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Fotodiario</string>
+    <string name="action_layout">Cambia Layout</string>
+    <string name="action_rename">Rinomina</string>
+    <string name="action_delete">Cancella</string>
+    <string name="albumEdit">Modifica</string>
+    <string name="albumRemove">Elimina</string>
+    <string name="labelAlbumDesc">"Inserisci una descrizione dell\'album (Facoltativo)"</string>
+    <string name="labelAlbumName">"Inserisci il nome dell'album"</string>
+    <string name="labelAlbumSave">"Salva"</string>
+    <string name="title_activity_album_view">Foto</string>
+    <string name="title_activity_album_create_new">Crea Nuovo Album</string>
+    <string name="errorNoStoragePermission">Questa app non può funzionare correttamente senza i permessi in scrittura</string>
+    <string name="errorAlbumNameEmpty">Il nome dell\'album non può essere vuoto</string>
+    <string name="errorAlbumNameAlreadyExists">Il nome dell\'album esiste già</string>
+    <string name="albumDeleteQuestion">Sei sicuro di volere eliminare l\'album?</string>
+    <string name="pictureDeleteQuestion">Sei sicuro di volere eliminare la foto?</string>
+    <string name="title_activity_album_edit">Modifica Album</string>
+    <string name="title_activity_picture_new">Nuova Foto</string>
+    <string name="pictureAddDescription">Aggiungi Descrizione</string>
+    <string name="pictureDelete">Rimuovi Immagine</string>
+    <string name="pictureSave">Salva</string>
+    <string name="errorNoGpsPermissions">Non posso usare la geolocalizzazione senza permessi</string>
+    <string name="emptyString">none</string>
+    <string name="title_activity_picture_view">PictureView</string>
+    <string name="pictureInfo">Informazioni</string>
+    <string name="pictureMaps">Apri Maps</string>
+    <string name="pictureShare">Condividi</string>
+</resources>

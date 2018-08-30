@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="it.unipr.marco.fotodiario.activities.PictureNew">
+    <item
+        android:id="@+id/pictureAddDescription"
+        android:icon="@drawable/ic_menu_edit_24dp"
+        android:title="@string/pictureAddDescription"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/pictureSave"
+        android:icon="@drawable/ic_menu_save_24dp"
+        android:title="@string/pictureSave"
+        app:showAsAction="always" />
+</menu>
